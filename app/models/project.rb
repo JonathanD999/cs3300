@@ -1,3 +1,3 @@
 class Project < ApplicationRecord
-    #validates_prescense_of :title, :description
+    validates_presence_of :title, :description
 end
