@@ -2,6 +2,8 @@ require "rails_helper"
 
 RSpec.describe ProjectsController, type: :controller do
 
+  login_user
+
     #tests that the index route functions properly
   context "GET #index" do
     it "returns a success response" do
