@@ -73,3 +73,7 @@ gem 'mini_racer'
 gem 'simplecov', require: false
 
 gem 'devise'
+
+gem 'bootstrap', '~> 4.0.0'
+
+gem 'jquery-rails'
